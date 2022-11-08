@@ -1,16 +1,8 @@
-/**
-* Template Name: iPortfolio - v3.9.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  margin-left: 50px;
 }
 
 a {
@@ -80,13 +72,14 @@ h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
+  margin-left: 80px;
 }
 
 #header .profile img {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  //border: 8px solid #2c2f3f;
 }
 
 #header .profile h1 {
@@ -226,10 +219,11 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: 90%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.jpg") top center white;
   background-size: cover;
+  margin-left: 30px;
 }
 
 #hero:before {
@@ -294,8 +288,9 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 70px;
   overflow: hidden;
+  width: 90%;
 }
 
 .section-bg {
@@ -1082,6 +1077,7 @@ section {
   width: 300px;
   z-index: 9999;
   background: #040b14;
+  margin-left: 80px;
 }
 
 #footer .copyright {
@@ -1101,4 +1097,27 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+
+.progress-wrap span {
+  /* background-color: rgb(50,63,79); */
+  background-color: #e4edf9;
+  color: #050d18;
+  font-size: 13px;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #777777;
+  border-radius: 10px;
 }
