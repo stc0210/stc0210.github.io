@@ -245,6 +245,8 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin-left: 700px;
+  margin-top: 470px;
 }
 
 #hero h1 {
@@ -254,18 +256,18 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgba(49, 25, 19);
 }
 
 #hero p {
-  color: #fff;
+  color: rgba(49, 25, 19);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color: rgba(49, 25, 19);
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #ffcccc;
@@ -305,6 +307,10 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+}
+
+.section-title-portfolio, .section-title-resume{
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
@@ -584,7 +590,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   position: absolute;
   left: 0;
   right: 0;
