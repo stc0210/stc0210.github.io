@@ -6,6 +6,11 @@ body {
   background-color: ;
 }
 
+p {
+  font-family: 'Ubuntu';font-size: 22px;
+
+}
+
 a {
   color: #ffcccc;
   text-decoration: none;
@@ -22,7 +27,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  //font-family: "Raleway", sans-serif;
+  font-family: 'Ubuntu';
 }
 
 /*--------------------------------------------------------------
@@ -90,7 +96,8 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  //font-family: "Poppins", sans-serif;
+  font-family: 'Ubuntu';
 }
 
 #header .profile h1 a,
@@ -140,6 +147,7 @@ h6 {
 /* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
+  font-family: 'Ubuntu';
 }
 
 .nav-menu * {
@@ -245,15 +253,14 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
-  margin-left: 700px;
-  margin-top: 470px;
+  margin-left: 1030px;
+  margin-top: 720px;
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-family: 'Noto Serif TC', serif;
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 64px;
+  font-family: 'Reenie Beanie';
+  font-size: 120px;
   font-weight: 700;
   line-height: 56px;
   color: rgba(49, 25, 19);
@@ -262,8 +269,8 @@ h6 {
 #hero p {
   color: rgba(49, 25, 19);
   margin-bottom: 50px;
-  font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-family: 'Reenie Beanie';
 }
 
 #hero p span {
@@ -283,6 +290,7 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    font-family: 'Reenie Beanie';
   }
 
   #hero h2 {
@@ -311,6 +319,7 @@ section {
 
 .section-title-portfolio, .section-title-resume{
   padding-bottom: 10px;
+  font-family: 'Ubuntu';
 }
 
 .section-title h2 {
@@ -460,7 +469,8 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  //font-family: "Poppins", sans-serif;
+  font-family: 'Ubuntu';
   color: #050d18;
 }
 
@@ -504,7 +514,8 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  //font-family: "Poppins", sans-serif;
+  font-family: 'Ubuntu';
   color: #050d18;
   margin-bottom: 10px;
 }
@@ -524,6 +535,7 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-family: 'Ubuntu';
 }
 
 .resume .resume-item:last-child {
@@ -786,12 +798,14 @@ section {
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
+  font-family: 'Ubuntu';
   margin: 10px 0 5px 0;
   color: #111;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
+  font-family: 'Ubuntu';
   color: #999;
   margin: 0;
 }
@@ -942,8 +956,9 @@ section {
 .progress-wrap span {
   /* background-color: rgb(50,63,79); */
   background-color: #e4edf9;
+  font-family: 'Ubuntu';
   color: #050d18;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .badge {
