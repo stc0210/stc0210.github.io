@@ -253,8 +253,8 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
-  margin-left: 550px;
-  margin-top: 350px;
+  margin-left: 55%;
+  margin-top: 25%;
 }
 
 #hero h1 {
@@ -287,10 +287,17 @@ h6 {
 }
 
 @media (max-width: 768px) {
+
+  #hero {
+    width: 90%;
+    height: 70vh;
+  }
+
   #hero h1 {
-    font-size: 28px;
+    font-size: 58px;
     line-height: 36px;
     font-family: 'Reenie Beanie';
+    margin-top: 85%;
   }
 
   #hero h2 {
@@ -298,6 +305,13 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
+  #hero p {
+    color: rgba(49, 25, 19);
+    font-size: 40px;
+    font-family: 'Reenie Beanie';
+}
+
 }
 
 /*--------------------------------------------------------------
@@ -949,6 +963,7 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+    margin-left: 20px;
   }
 }
 
